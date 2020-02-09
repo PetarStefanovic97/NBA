@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NBA</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light pt-2 pb-2 pl-5 pr-5">
+        <img src="nbaLogo.png" width="50px" alt="">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="#">Scores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Schedule</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">News</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Video</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">NBA TV</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Stats</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" style="border-bottom: 1px solid white;" href="#">Standings</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Players</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Teams</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">All Stars</a>
+              </li>
+          </ul>
+
+          <ul class="navbar-nav my-2 my-lg-0">
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Pick 'Em</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Tickets</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">NBA League PASS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#"><i class="fa fa-user" aria-hidden="true"></i></a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div id="divTop" class="container mt-3">
+          <div class="container text-center p-2">
+              <button class="btn btn-light">Conference</button>
+              <button class="btn btn-light">Division</button>
+          </div>
+      </div>
+
+      <div class="container">
+        <h2>Eastern Conference 2020</h2>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col">W</th>
+                    <th scope="col">L</th>
+                    <th scope="col">WIN%</th>
+                    <th scope="col">GB</th>
+                    <th scope="col">CONF</th>
+                    <th scope="col">DIV</th>
+                    <th scope="col">HOME</th>
+                    <th scope="col">ROAD</th>
+                    <th scope="col">L10</th>
+                    <th scope="col">STRK</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+                
+            </tbody>
+        </table>
+</body>
+</html>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="script.js"></script>
